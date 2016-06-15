@@ -1,0 +1,616 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+#main_div {
+	border:1px solid red;
+	width:100%;
+	padding:0 ;
+}
+
+
+
+
+#div-head {
+	width:100%;
+	height:70px;
+	background-color:#007FFF;
+	display: flex;
+}
+
+#div-head #logo {
+	background-image:url("../images/1.png");
+	background-repeat:no-repeat;
+	background-position:38px 5px;
+	width: 20%;
+}
+
+
+#div-head #site-name {
+	width: 60%;
+	font-size:48px;	
+	color:#FFFFFF;
+	font-family:sans-serif;
+	text-align: center;
+}
+
+
+#div-head #phone-numbers {
+	width: 20%;
+}
+
+#div-head #phone-numbers span {
+	display: block;
+	width: 100%;
+	font-size:30px;	
+	color:#FFFFFF;
+	font-family:sans-serif;
+}
+
+
+
+
+
+
+#head-car-main {
+	width:100%;
+	height:478px;
+	display:flex;
+}
+
+#head-car-main #head-car {
+	width:30%;
+	height:478px;
+	background-image:url("../images/car.png");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+#head-car-main #head-car-fon {
+	width:40%;
+	height:478px;
+	background-image:url("../images/bg1.png");
+}
+
+#head-car-main #div-for-form {
+	width:30%;
+	height:478px;
+	background-image:url("../images/bg1.png");
+}
+
+#head-car-main #div-for-form #div-for-form-img {
+	width:100%;
+	height:116px;
+	background-image:url("../images/car2.png");
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+#head-car-main #div-for-form #div-for-form-head {
+	width:100%;
+	height:30px;
+	padding-top:10px;
+}
+
+#head-car-main #div-for-form #div-for-form-head-name {
+	width:100%;
+	height:40px;
+	display:inline;
+	margin-left:20px;
+	color:#209aff;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.div-block {
+	height:25px;
+	display:inline;
+	margin-top:10px;
+	margin-left:15px;
+	background-color:#209aff;
+	color:#ffffff;
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	padding-left:20px;
+}
+
+.div-block1 {
+	height:25px;
+	display:inline;
+	margin-top:10px;
+	margin-left:15px;
+	background-color:#209aff;
+	color:#ffffff;
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+#head-car-main #div-for-form #div-for-form-head-name2 {
+	width:100%;
+	height:30px;
+	color:#ff6877;
+	font-family:Fixed, monospace;
+	font-size:30px;
+	font-weight:bold;
+	display:block;
+	margin-left:-2px;
+	text-align:center;
+}
+
+#div-inputs {
+	width:100%;
+	height:285px;
+}
+
+
+.inp1 {
+	width:380px;
+	height:30px;
+	font-style:italic;
+	margin:5px;
+	padding-left:5px;
+	color:#BEBEBE;
+	background-image:url("../images/input_name.png");
+	background-repeat:no-repeat;
+	background-position:center right;
+}
+
+.inp2 {
+	width:380px;
+	height:30px;
+	font-style:italic;
+	margin:5px;
+	padding-left:5px;
+	border-color:#BEBEBE;
+	color:#BEBEBE;
+	background-image:url("../images/phone.jpg");
+	background-repeat:no-repeat;
+	background-position:center right;
+}
+
+.inp3 {
+	width:380px;
+	height:60px;
+	font-style:italic;
+	margin:5px;
+	padding-left:5px;
+	border-color:#BEBEBE;
+	color:#BEBEBE;
+}
+
+.inp4 {
+	width:380px;
+	height:50px;
+	border-radius:5px; 
+	margin-left:10px;
+	background-color:#ff6877;
+	color:#FFFFFF;
+	font-family:Fixed, monospace;
+	font-size:30px;
+	font-weight:bold;
+	text-align:center;
+	margin-bottom:40px;
+}
+
+.footer1 {
+	width:100px;
+	height:30px;
+	display:inline;
+}
+
+#head-car-main #div-inputs div {
+	margin-right:40px;	
+	font-size:18px;
+	color:#BEBEBE;
+}
+
+#div-long-car{
+	background-image:url("../images/car_long.png");
+	width:100%;
+	height:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#content1 {
+	width:100%;
+	height:670px;
+	background-image:url("../images/bg2.jpg");	
+}
+
+#content1 #content1-head1 {
+	text-align:right;
+	font-size:18px;
+	color:#BEBEBE;
+	padding:10px;
+}
+
+#content1 .pre1 {
+	margin:0;	
+}
+
+#content1 #content1-head2 {
+	height:50px;
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+	letter-spacing:3px;
+	font-family:Fixed, monospace;
+	padding-top:10px;
+	display:flex;
+	padding-left:600px;
+}
+
+#content1 #content1-head2-img {
+	width:48px;
+	height:51px;
+	background-image:url("../images/hand.jpg");
+	background-repeat:no-repeat;
+}
+
+#contain1-main {
+	width:100%;
+	height:284px;
+	display:flex;
+}
+
+#contein1-main-1 {
+	width:35%;
+	
+}
+
+#contein1-main-2 {
+	width:30%;
+	
+}
+
+#contein1-main-3 {
+	width:35%;
+}
+
+.img1 {
+	width:100%;
+	height:110px;
+	background-image:url("../images/cont1.png");
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+
+.img2 {
+	width:100%;
+	height:110px;
+	background-image:url("../images/cont2.png");
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+
+.img3 {
+	width:100%;
+	height:110px;
+	background-image:url("../images/cont3.png");
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+
+.img-text {
+	text-align:center;	
+	font-size:25px;
+	color:grey;
+}
+
+
+#contain1-main2 {
+	width:100%;
+	height:284px;
+	display:flex;
+}
+
+#contein1-main-4 {
+	width:35%;
+	
+}
+
+#contein1-main-5 {
+	width:30%;
+	
+}
+
+#contein1-main-6 {
+	width:35%;
+}
+
+.img4 {
+	width:100%;
+	height:110px;
+	background-image:url("../images/cont4.png");
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+
+.img5 {
+	width:100%;
+	height:110px;
+	background-image:url("../images/cont5.png");
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+
+.img6 {
+	width:100%;
+	height:110px;
+	background-image:url("../images/cont6.png");
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+
+.img-text {
+	text-align:center;	
+	font-size:25px;
+	color:grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+#content2 {
+	width:100%;
+	height:858px;
+	background-color:#80d2ff;
+}
+
+#content2-head {
+	width:100%;
+	height:86px;
+	background-image:url("../images/interpr.png");
+	background-repeat:no-repeat;
+	background-position:center top;
+	margin-bottom:20px;
+}
+
+#content2-main {
+	width:60%;
+	height:750px;
+	background-color:#fdfff8;
+	margin:0 auto;
+	border-radius:30px;
+	display:flex;
+}
+
+#content2-points {
+	width:6%;
+	height:100%;
+	background-image:url("../images/points.png");
+	background-repeat:no-repeat;
+	border-radius:30px;
+}
+
+#content2-text {
+	width:94%;
+	height:100%;
+	background-image:url("../images/small_points.png");
+	
+}
+
+#pre-list {
+	font-size:20px;
+	color:DimGray;
+	font-style:italic;
+	line-height:40px;
+}
+
+.mark1 {
+	width:39px;
+	height:39px;
+	background-image:url("../images/check_mark.png");
+	position:relative;
+	top:-780px;
+	left:100px;
+}
+
+.mark2 {
+	width:39px;
+	height:39px;
+	background-image:url("../images/check_mark.png");
+	position:relative;
+	top:-695px;
+	left:100px;
+}
+
+.mark3 {
+	width:39px;
+	height:39px;
+	background-image:url("../images/check_mark.png");
+	position:relative;
+	top:-620px;
+	left:100px;
+}
+
+.mark4 {
+	width:39px;
+	height:39px;
+	background-image:url("../images/check_mark.png");
+	position:relative;
+	top:-580px;
+	left:100px;
+}
+
+.mark5 {
+	width:39px;
+	height:39px;
+	background-image:url("../images/check_mark.png");
+	position:relative;
+	top:-580px;
+	left:100px;
+}
+
+.mark6 {
+	width:39px;
+	height:39px;
+	background-image:url("../images/check_mark.png");
+	position:relative;
+	top:-570px;
+	left:100px;
+}
+
+.mark7 {
+	width:39px;
+	height:39px;
+	background-image:url("../images/check_mark.png");
+	position:relative;
+	top:-530px;
+	left:100px;
+}
+
+.mark8 {
+	width:39px;
+	height:39px;
+	background-image:url("../images/check_mark.png");
+	position:relative;
+	top:-500px;
+	left:100px;
+}
+
+#content2-footer {
+	width:100%;
+	height:53px;
+	background-image:url("../images/cars_drive.png");
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-color:#80d2ff;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#content3 {
+	width:100%;
+	height:636px;
+	background-image:url("../images/content3.png");
+	background-repeat:no-repeat;
+	background-position:center center;
+	margin-top:32px;
+	background-color:#fc8269;
+}
+
+#content3-text {
+	transform:rotate(-9deg);	
+	text-align:center;
+	font-size:20px;
+	color:DimGray;
+	font-style:italic;
+}
+
+
+
+
+
+
+
+
+
+
+#content4 {
+	width:100%;
+	height:1134px;
+	background-image:url("../images/content4.png");
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+#content4-head {
+	text-align:center;
+	font-size:20px;
+	color:#5e7494;
+	letter-spacing:5px;
+	font-weight:bold;
+}
+
+#client-info {
+	width:60%;
+	height:420px;
+	display:flex;
+	margin-top:185px;
+	margin:185px auto;
+}
+
+#client-info1 {
+	width:35%;	
+	text-align:center;
+	font-family:Fixed, monospace;
+}
+
+#client-info2 {
+	width:30%;	
+	text-align:center;
+	font-family:Fixed, monospace;
+}
+
+#client-info3 {
+	width:35%;	
+	text-align:center;
+	font-family:Fixed, monospace;
+}
+
+#main-contacts {
+	width:100%;
+	height:260px;
+	margin-top:-100px;
+	display:flex;
+}
+
+#div-empty {
+	width:60%;
+}
+
+#div-right {
+	width:40%;	
+}
+
+#contacts {
+	text-align:right;
+	font-size:20px;
+	color:#5e7494;
+	font-weight:bold;
+	padding-right:50%;
+}
+
+
+
+iframe {
+	width:100%;
+	height:450px;
+}
